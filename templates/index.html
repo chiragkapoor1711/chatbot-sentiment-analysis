@@ -1,0 +1,44 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>Chatbot with Sentiment Analysis</title>
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <link rel="stylesheet" href="/static/style.css">
+</head>
+<body>
+  <div class="app">
+    <header class="topbar">
+      <h1>✨ Sentiment Chatbot</h1>
+      <button id="endBtn" class="btn secondary">End Chat</button>
+      <button id="resetBtn" class="btn secondary">Reset</button>
+    </header>
+
+    <main class="main">
+      <aside class="left-panel">
+        <h3>💬 Conversation</h3>
+        <div id="messages" class="messages"></div>
+      </aside>
+
+      <aside class="right-panel">
+        <h3>📊 Sentiment Analysis</h3>
+        <div id="messageList" class="message-list">
+          <em style="color: var(--text-muted);">No messages yet. Start chatting!</em>
+        </div>
+
+        <div class="summary" id="finalSummary" style="display:none;">
+          <h4>🎯 Overall Conversation Sentiment</h4>
+          <div id="overallLabel" class="overall-label"></div>
+          <div id="overallScore" class="overall-score"></div>
+        </div>
+      </aside>
+    </main>
+
+    <footer class="footer">
+      <input id="inputMessage" placeholder="Type your message..." autocomplete="off" />
+      <button id="sendBtn" class="btn primary">Send 🚀</button>
+    </footer>
+  </div>
+<script src="/static/app.js"></script>
+</body>
+</html>
