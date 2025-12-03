@@ -123,7 +123,6 @@ Tests include:
 ## 📌 Status
 - **Tier 1: FULLY IMPLEMENTED ✅**  
 - **Tier 2: FULLY IMPLEMENTED (+ mood trend) ⭐**  
-- Project is ready for academic submission.
 
 ---
 
